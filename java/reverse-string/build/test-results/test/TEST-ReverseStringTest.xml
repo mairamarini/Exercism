@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReverseStringTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-14T09:51:49" hostname="LPT-FA4562" time="0.071">
+  <properties/>
+  <testcase name="testAWord" classname="ReverseStringTest" time="0.068"/>
+  <testcase name="testAnEmptyString" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="testACapitalizedWord" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="testASentenceWithPunctuation" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="testAPalindrome" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="testAnEvenSizedWord" classname="ReverseStringTest" time="0.0"/>
+  <system-out><![CDATA[tobor
+
+nemaR
+!yrgnuh m'I
+racecar
+reward
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
