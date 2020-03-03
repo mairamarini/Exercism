@@ -48,7 +48,7 @@ public class IsbnVerifierTest {
         assertFalse(isbnVerifier.isValid("3-598-2X507-9"));
     }
 
-    //falhou
+
     @Test
     public void validIsbnWithoutSeparatingDashes() {
         assertTrue(isbnVerifier.isValid("3598215088"));

@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class IsbnVerifier {
 
     boolean isValid(String stringToVerify) {
@@ -15,32 +13,35 @@ class IsbnVerifier {
 
         if(stringToVerifyWithoutLastChar.contains("-")) {
             stringToVerifyWithoutLastChar = stringToVerifyWithoutLastChar.replaceAll("-", "");
-            if(stringToVerifyWithoutLastChar.length() != 9){
-                return false;
-            }
-            if(stringToVerifyWithoutLastChar.contains("^[a-Z]")) {
-                return false;
-            }
-            if(lastChar.equals("X")){
-                lastChar = "10";
-            }
-            if (!lastChar.equals("X") && lastChar.contains("^[a-Z]")){
-                return false;
-            }
-
-            
-           char[] arrayLastChar = lastChar.toCharArray();
-            System.out.println(arrayLastChar);
-
-           char[] arrayToVerify = stringToVerifyWithoutLastChar.toCharArray();
-            System.out.println("ok");
-
-           if(((arrayToVerify[0] * 10 + arrayToVerify[1] * 9 + arrayToVerify[2] * 8 + arrayToVerify[3] * 7 + arrayToVerify[4] * 6 +
-                   arrayToVerify[5] * 5 + arrayToVerify[6] * 4 + arrayToVerify[7] * 3 + arrayToVerify[8] * 2 + arrayLastChar[0]) % 11) == 0 ){
-               System.out.println("yey");
-               return true;
-           }
         }
-        return false;
+
+        if(stringToVerifyWithoutLastChar.length() != 9){
+            return false;
+        }
+
+        if(stringToVerifyWithoutLastChar.matches(".*[a-zA-Z].*")) {
+            return false;
+        }
+
+        if (!lastChar.equals("X") && lastChar.matches(".*[A-Z].*")){
+            return false;
+        }
+
+        if(lastChar.equals("X")){
+            lastChar = "10";
+        }
+
+        char[] arrayToVerify = stringToVerifyWithoutLastChar.toCharArray();
+
+        int lastInt = Integer.parseInt(lastChar);
+
+        int[] arrayIntToVerify = new int[arrayToVerify.length];
+
+        for (int i = 0; i < arrayToVerify.length; i++) {
+            arrayIntToVerify[i] = Character.getNumericValue(arrayToVerify[i]);
+        }
+
+        return ((arrayIntToVerify[0] * 10 + arrayIntToVerify[1] * 9 + arrayIntToVerify[2] * 8 + arrayIntToVerify[3] * 7 + arrayIntToVerify[4] * 6 +
+                arrayIntToVerify[5] * 5 + arrayIntToVerify[6] * 4 + arrayIntToVerify[7] * 3 + arrayIntToVerify[8] * 2 + lastInt) % 11) == 0;
     }
 }

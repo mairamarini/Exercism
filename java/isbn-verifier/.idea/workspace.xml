@@ -37,10 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gigasecond" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.IsbnVerifierTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="isbn-verifier.main" />
@@ -68,12 +68,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsbnVerifierTest.invalidCharacterInIsbn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsbnVerifierTest.isbnWithoutSeparatingDashesAndXAsCheckDigit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IsbnVerifierTest.invalidCharacterInIsbn&quot;" />
+        <option name="scriptParameters" value="--tests &quot;IsbnVerifierTest.isbnWithoutSeparatingDashesAndXAsCheckDigit&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -88,12 +88,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsbnVerifierTest.validIsbnNumberWithCheckDigitOfTen" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsbnVerifierTest.validIsbnNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IsbnVerifierTest.validIsbnNumberWithCheckDigitOfTen&quot;" />
+        <option name="scriptParameters" value="--tests &quot;IsbnVerifierTest.validIsbnNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -132,8 +132,8 @@
       <list>
         <item itemvalue="Gradle.IsbnVerifierTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.IsbnVerifierTest.validIsbnNumberWithCheckDigitOfTen" />
-        <item itemvalue="Gradle.IsbnVerifierTest.invalidCharacterInIsbn" />
+        <item itemvalue="Gradle.IsbnVerifierTest.isbnWithoutSeparatingDashesAndXAsCheckDigit" />
+        <item itemvalue="Gradle.IsbnVerifierTest.validIsbnNumber" />
         <item itemvalue="Gradle.IsbnVerifierTest.validIsbnWithoutSeparatingDashes" />
       </list>
     </recent_temporary>
@@ -152,37 +152,91 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1582739789190">
+    <state x="-1180" y="24" key="FileChooserDialogImpl" timestamp="1583246152127">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582739789190" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1582739789190">
+    <state x="-1180" y="24" key="FileChooserDialogImpl/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583246152127" />
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582739789190" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1582739789190">
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583239945794" />
+    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582739789190" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1582739789190">
+    <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="279" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583239945794" />
+    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582739789190" />
-    <state width="1163" height="344" key="GridCell.Tab.1.bottom" timestamp="1582733418968">
+    <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="279" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583239945794" />
+    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1163" height="344" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582733418968" />
-    <state width="1163" height="344" key="GridCell.Tab.1.center" timestamp="1582733418968">
+    <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="279" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583239945794" />
+    <state width="1877" height="343" key="GridCell.Tab.1.bottom" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1163" height="344" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582733418968" />
-    <state width="1163" height="344" key="GridCell.Tab.1.left" timestamp="1582733418968">
+    <state width="1877" height="343" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583239842171" />
+    <state width="1877" height="343" key="GridCell.Tab.1.center" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1163" height="344" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582733418968" />
-    <state width="1163" height="344" key="GridCell.Tab.1.right" timestamp="1582733418968">
+    <state width="1877" height="343" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583239842171" />
+    <state width="1877" height="343" key="GridCell.Tab.1.left" timestamp="1583245945683">
       <screen x="-1920" y="-252" width="1920" height="1040" />
     </state>
-    <state width="1163" height="344" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1582733418968" />
+    <state width="1877" height="343" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583239842171" />
+    <state width="1877" height="343" key="GridCell.Tab.1.right" timestamp="1583245945683">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583245945683" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583239842171" />
+    <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1583235810805">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.2.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583235810805" />
+    <state width="1877" height="346" key="GridCell.Tab.2.center" timestamp="1583235810804">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.2.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583235810804" />
+    <state width="1877" height="346" key="GridCell.Tab.2.left" timestamp="1583235810804">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.2.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583235810804" />
+    <state width="1877" height="346" key="GridCell.Tab.2.right" timestamp="1583235810805">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.2.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583235810805" />
+    <state x="382" y="180" width="846" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583237570184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1383" y="5" width="846" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583235883786" />
+    <state x="382" y="180" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1583237570184" />
+    <state x="-1578" y="-111" key="new project wizard" timestamp="1583243604977">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state x="-1578" y="-111" key="new project wizard/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583243604977" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>1</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/isbn_verifier$Main.ic" NAME="Main Coverage Results" MODIFIED="1583235634283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
