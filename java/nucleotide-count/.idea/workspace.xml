@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0432670b-e774-4788-ac08-ae6e9060464f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ywg2dNnyFbT8Ya8lkQQKqBPenu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.NucleotideCounterTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="nucleotide-count.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NucleotideCounterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;NucleotideCounterTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NucleotideCounterTest.testDnaStringHasInvalidNucleotides" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;NucleotideCounterTest.testDnaStringHasInvalidNucleotides&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NucleotideCounterTest.testEmptyDnaStringHasNoNucleotides" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;NucleotideCounterTest.testEmptyDnaStringHasNoNucleotides&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.NucleotideCounterTest" />
+        <item itemvalue="Gradle.NucleotideCounterTest.testDnaStringHasInvalidNucleotides" />
+        <item itemvalue="Gradle.NucleotideCounterTest.testEmptyDnaStringHasNoNucleotides" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0432670b-e774-4788-ac08-ae6e9060464f" name="Default Changelist" comment="" />
+      <created>1583858864114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583858864114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583944003518">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583944003518" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583944003518">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583944003518" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583944003517">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583944003517" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583944003518">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583944003518" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583921224129">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583921224129" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583921224129">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583921224129" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583921224129">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583921224129" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583921224129">
+      <screen x="-1920" y="-252" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-252.1920.1040@-1920.-252.1920.1040" timestamp="1583921224129" />
+  </component>
+</project>
